@@ -1,1 +1,27 @@
+## Project Reflection
 
+### How do I approach designing software?
+
+Throughout this project, I approached software design by starting with the requirements and identifying which features and techniques each part of my scene could demonstrate. My 3D scene focused on four objects of increasing complexity: a box with a lid, a bunny, a water fountain, and a feeder. Each object was selected to demonstrate different OpenGL concepts, including transformations, texture mapping, lighting, animation, and mathematical positioning.
+
+One of the most useful design skills I developed was breaking complex objects into simpler shapes and identifying relationships between those shapes. For example, I used variables and ratio offsets for the bunny so that related parts, such as the head, ears, and legs, could remain proportional around a central point. For the feeder, I used trigonometry with `sin()` to calculate the positioning of the angled planes based on the trough's angle. This approach made the objects easier to adjust and test because I could modify a few values instead of manually changing the position of every individual component.
+
+My design process involved choosing an object, determining which basic shapes and techniques were needed to create it, and then gradually adding complexity. I also designed the scene so that each object built on skills used in the previous objects. In future projects, I can apply this approach by first identifying the requirements of a feature, breaking it into smaller components, and using variables and relationships to make the design easier to modify and maintain.
+
+### How do I approach developing programs?
+
+While developing the 3D scene, I used new strategies involving modular functions, proportional calculations, dynamic animation, and iterative testing. I placed the logic for each object into its own function that accepts X, Y, and Z positions. This made the code more organized and reusable because I could place duplicate objects by calling the same function with different coordinates. It also allowed me to test and modify individual objects without affecting the rest of the scene.
+
+Iteration was an important part of the development process. I regularly adjusted positions, dimensions, textures, colors, materials, and lighting while testing how the scene looked from different camera angles. For example, I reduced a box's alpha value to make it partially transparent. In doing so, I learned that transparent objects must still be rendered in a specific order to ensure that objects inside them remain visible. I used this technique on the feeder by placing a textured box representing rabbit food inside a semi-transparent box.
+
+My development approach also evolved throughout the milestones. Earlier in the project, I focused on learning the basic process of drawing and transforming individual objects. As the project progressed, I began using more organized and reusable code, mathematical relationships between objects, multiple light sources, and animation. For the flowing water in the fountain, I used `std::chrono` to retrieve the current time in milliseconds and continuously scale the Z-axis of a torus mesh to create a repeating flowing effect. By the end of the project, I was approaching development less as manually positioning individual vertices and more as creating reusable systems that could control multiple parts of an object.
+
+### How can computer science help me in reaching my goals?
+
+This project helped me develop a stronger understanding of computational graphics and visualizations, particularly how objects are positioned, textured, lit, and rendered in a 3D environment. Since I am interested in game development, understanding these lower-level concepts gives me a better foundation for understanding the tools and systems used by game engines. I also have some experience with Blender and understand how quickly complex models can affect rendering performance. Combining that experience with what I learned in OpenGL will help me better understand how to create and efficiently use objects in future projects.
+
+One question I still have is how these basic translation, rendering, and texturing functions are implemented into game engines that simplify the process so dramatically. Game engines make drawing vertices and manipulating objects appear almost invisible to developers, even though there is a significant amount of processing happening behind the scenes. I plan to continue learning how these concepts translate into game engines and how higher-level development tools build upon lower-level graphics systems.
+
+From an educational perspective, computational graphics have given me experience applying mathematics, programming, and problem-solving to create visual results. Concepts such as transformations, trigonometry, ratios, materials, lighting, and animation all required me to connect programming logic with mathematical calculations.
+
+Professionally, these skills can support my interest in game development and other areas involving computer-generated visuals. Understanding what happens behind a game engine's interface will help me make more informed decisions when designing scenes, creating objects, and considering performance. This project gave me a foundation in how graphics systems work and showed me how mathematical and programming concepts can work together to create interactive visual experiences.
