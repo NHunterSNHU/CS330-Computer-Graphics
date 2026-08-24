@@ -1,0 +1,17 @@
+﻿  MainCode.cpp
+  SceneManager.cpp
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\SceneManager.cpp(224,16): warning C4018: '<': signed/unsigned mismatch
+  ViewManager.cpp
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(140,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(141,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(146,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(147,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(150,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(151,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(166,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\Source\ViewManager.cpp(245,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 794 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  7-1_FinalProjectMilestones.vcxproj -> C:\Users\nhunt\Visual Studio\CS330Content\CS330 Final Project Submission\7-1_FinalProjectMilestones\7-1_FinalProjectMilestones.exe
